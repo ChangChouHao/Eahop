@@ -1,0 +1,32 @@
+2025-05-28T06:59:50.477422Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+2025-05-28T06:59:50.481204Z 0 [System] [MY-013169] [Server] C:\Users\st963\scoop\apps\mysql\current\bin\mysqld.exe (mysqld 9.3.0) initializing of server in progress as process 22508
+2025-05-28T06:59:50.522639Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-05-28T06:59:53.987936Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-05-28T07:00:00.468284Z 0 [ERROR] [MY-000067] [Server] unknown variable 'character-set-client-handshake=FALSE'.
+2025-05-28T07:00:00.471718Z 0 [ERROR] [MY-013236] [Server] The designated data directory E:\eshop\mysql-data\ is unusable. You can remove all files that the server added to it.
+2025-05-28T07:00:00.473701Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-05-28T07:00:01.984814Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+2025-05-28T07:00:10.441086Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2025-05-28T07:00:10.572025Z 0 [System] [MY-010116] [Server] C:\Users\st963\scoop\apps\mysql\current\bin\mysqld.exe (mysqld 9.3.0) starting as process 20252
+2025-05-28T07:00:10.588622Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-05-28T07:00:12.772550Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+mysqld: Table 'mysql.plugin' doesn't exist
+2025-05-28T07:00:13.410285Z 0 [ERROR] [MY-010735] [Server] Could not open the mysql.plugin table. Please perform the MySQL upgrade procedure.
+2025-05-28T07:00:13.412962Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-05-28T07:00:13.413925Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-05-28T07:00:13.414672Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-05-28T07:00:13.415410Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-05-28T07:00:13.415945Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-05-28T07:00:13.416418Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-05-28T07:00:13.416825Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-05-28T07:00:13.580531Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-05-28T07:00:13.732177Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-05-28T07:00:13.771707Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-05-28T07:00:13.771937Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-05-28T07:00:13.775231Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2025-05-28T07:00:13.775620Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2025-05-28T07:00:13.776128Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2025-05-28T07:00:13.777883Z 0 [ERROR] [MY-000067] [Server] unknown variable 'character-set-client-handshake=FALSE'.
+2025-05-28T07:00:13.782021Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-05-28T07:00:14.616669Z 0 [System] [MY-010910] [Server] C:\Users\st963\scoop\apps\mysql\current\bin\mysqld.exe: Shutdown complete (mysqld 9.3.0)  MySQL Community Server - GPL.
+2025-05-28T07:00:14.617011Z 0 [System] [MY-015016] [Server] MySQL Server - end.
