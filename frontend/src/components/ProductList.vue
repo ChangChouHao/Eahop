@@ -2,9 +2,9 @@
   <div class="product-list">
     <h2>商品列表</h2>
     <div class="product-item" v-for="product in products" :key="product.productId">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
       <h3>{{ product.productName }}</h3>
       <p>價格：{{ product.price }}</p>
-      <p>庫存：{{ product.quantity }}</p>
     </div>
   </div>
 </template>

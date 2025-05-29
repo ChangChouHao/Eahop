@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <h1>電商購物中心</h1>
+    <router-link to="/member" style="position: absolute; top: 20px; right: 20px; color: #eee;"><font-awesome-icon icon="user" /></router-link>
     <ProductList />
     <OrderForm />
     <router-view/>
@@ -8,16 +9,14 @@
 </template>
 
 <script>
-import ProductList from './components/ProductList.vue';
-import OrderForm from './components/OrderForm.vue';
+import ProductList from './components/ProductList.vue'
+import OrderForm from './components/OrderForm.vue'
 
 export default {
+  name: 'App',
   components: {
     ProductList,
     OrderForm,
-  },
-  mounted() {
-    this.$router.push('/member');
   }
 }
 </script>
@@ -28,8 +27,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #fff;
-  background-color: #222;
+  color: #eee;
+  background-color: #333;
   margin-top: 0;
   padding: 20px;
 }

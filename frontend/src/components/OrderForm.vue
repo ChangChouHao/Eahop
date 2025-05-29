@@ -47,14 +47,15 @@ export default {
 
 <style scoped>
 .order-form {
-  background-color: #444;
+  background-color: #555;
   padding: 20px;
   border-radius: 5px;
   margin-top: 20px;
+  color: #eee;
 }
 
 .order-form label {
-  color: #fff;
+  color: #eee;
   display: block;
   margin-bottom: 5px;
 }
@@ -63,13 +64,14 @@ export default {
   width: 100px;
   padding: 5px;
   margin-bottom: 10px;
-  border: 1px solid #555;
+  border: 1px solid #777;
   border-radius: 3px;
+  color: #333;
 }
 
 .order-form button {
-  background-color: #555;
-  color: #fff;
+  background-color: #777;
+  color: #eee;
   padding: 10px 15px;
   border: none;
   border-radius: 3px;
